@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.echat.arkarcy.laundry.addcustomerform">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+            android:hint="Customer Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="7dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/cadd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:hint="Address"
+            android:background="@drawable/button"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="7dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/cphone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/button"
+            android:inputType="number"
+            android:hint="Mobile No"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="7dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Record"
+            android:textColor="#ffffff"
+            android:background="@drawable/button1"/>
+    </LinearLayout>
+</RelativeLayout>
